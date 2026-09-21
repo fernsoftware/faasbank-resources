@@ -155,7 +155,7 @@ The report parameters can be utilized to separate the report into:
 * To exclude loans whose arrears balance is less than a certain percentage of their principal / total loan balance;  
 * To include / exclude Non-Performing loans. (Loans can be flagged as Non-Performing from within a loan record's Options tab.)
 
-Further information on how FaaSBank manages delinquency can be found here in the User Guide: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+Further information on how FaaSBank manages delinquency can be found here in the User Guide: [FaaSBank User Guide](06-loan-management.md#loan-delinquency)
 
 ![](images/image471.png)
 

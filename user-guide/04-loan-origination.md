@@ -448,9 +448,9 @@ Note: you will only be able to post the loan's initial Disbursal when it is at a
 There are generally two scenarios where you may need to disburse additional funds to a loan:
 
 1. The loan was only partially disbursed initially, meaning it still has undisbursed monies available for disbursal; or  
-2. The loan has been approved for additional funds (the guide section here outlines how to approve additional funds for an existing loan: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)).
+2. The loan has been approved for additional funds (the guide section here outlines how to approve additional funds for an existing loan: [FaaSBank User Guide](06-loan-management.md#handling-additional-applications-on-existing-loans-loan-top-ups)).
 
-If the loan's current amortization schedule does not reflect the new money, we would recommend creating a Bring Forward schedule to factor it in. This section of the guide covers creating Bring Forward schedules: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+If the loan's current amortization schedule does not reflect the new money, we would recommend creating a Bring Forward schedule to factor it in. This section of the guide covers creating Bring Forward schedules: [FaaSBank User Guide](06-loan-management.md#creating-bring-forward-amortization-schedules)
 
 ### Over-disbursing a loan
 
