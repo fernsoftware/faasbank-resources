@@ -99,7 +99,7 @@ A 'Draw Down' line of credit acts very much like a standard Term loan: Principal
 
 ## Advancing the Status of a Loan
 
-TBC!
+To advance a loan's status, go to its **Summary tab** and use the **Add Status button** to add a new status row, then click the **Update button** in the top-right corner of the record to save the change. See [Handling additional applications on existing loans](06-loan-management.md#handling-additional-applications-on-existing-loans-loan-top-ups) for a worked example of adding and updating a loan's status.
 
 ### Editing or deleting a status
 
