@@ -1,6 +1,6 @@
 # FaaSBank User Guide
 
-Last updated: 2026-09-21
+Last updated: 2026-10-21
 
 This is the user guide for FaaSBank, Fern Software's SME loan and grant
 management system. It is maintained here as markdown, and the Google Doc is

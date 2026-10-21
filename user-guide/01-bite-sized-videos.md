@@ -50,13 +50,19 @@ These videos focus on particular features or functionality in FaaSBank, providin
 
 ## Transactions
 
+### Reversing / Deleting a Transaction
+
 #### [Back-dated Reversal Feature - reversing Payments that are not the most recent transaction posted to the loan](https://www.loom.com/share/7ff91220a2894d67a0bc3076999758c5)
 
 [![](images/image9.gif)](https://www.loom.com/share/7ff91220a2894d67a0bc3076999758c5)
 
+### Loan Consolidation
+
 #### [Loan Consolidation - merging one or more loans into another loan](https://www.loom.com/share/194be297db6d43e79235387095d7c254)
 
 [![](images/image10.gif)](https://www.loom.com/share/194be297db6d43e79235387095d7c254)
+
+### Posting a Manual Payment
 
 #### [Posting a payout Payment to a loan that has interest suspension switched on](https://www.loom.com/share/37f7b64ad80b4e29bdf115f80c0f549f)
 

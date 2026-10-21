@@ -74,7 +74,7 @@ A loan can be flagged as being excluded from Transaction Processing from within 
 
 If the loan has no unprocessed scheduled transactions dated on or before the "Effective Sweep Date" selected in the left column of the window, then no scheduled transactions associated with the loan will be loaded into the window. This may indicate that the loan's amortization schedule is outdated and needs to be updated (via FaaSBank's Bring Forward process).
 
-Steps on the Bring Forward process can be found here: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+Steps on the Bring Forward process can be found here: [FaaSBank User Guide](06-loan-management.md#creating-bring-forward-amortization-schedules)
 
 ## Posting a Manual Payment
 
@@ -142,7 +142,7 @@ When you attempt to post such a payment, FaaSBank will display a pop-up message 
 
 ![](images/image215.png)
 
-The result is that the loan will now have a negative Principal balance. The loan will remain at its Closed Deal/Disbursed status until a user posts a transaction to reflect the client being reimbursed by the overpaid amount. See this section of the User Guide for steps on how to post a Paid Adjustment to bring the loan back to a 0.00 balance: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+The result is that the loan will now have a negative Principal balance. The loan will remain at its Closed Deal/Disbursed status until a user posts a transaction to reflect the client being reimbursed by the overpaid amount. See this section of the User Guide for steps on how to post a Paid Adjustment to bring the loan back to a 0.00 balance: [FaaSBank User Guide](06-loan-management.md#tidying-up-negative-loan-balances-managing-overpaid-loans)
 
 ![](images/image216.png)
 
@@ -162,7 +162,7 @@ When the window looks good, click the **Post button** to post it to the loan. Cl
 
 ![](images/image218.png)
 
-The result is that the loan will now have a negative Principal balance, and it will be reverted from Paid Out/Paid in Full to a **Closed Deal/Disbursed loan status**. See this section of the User Guide for steps on how to post a Paid Adjustment to bring the loan back to a 0.00 balance, reflecting the client being reimbursed by the overpaid amount: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+The result is that the loan will now have a negative Principal balance, and it will be reverted from Paid Out/Paid in Full to a **Closed Deal/Disbursed loan status**. See this section of the User Guide for steps on how to post a Paid Adjustment to bring the loan back to a 0.00 balance, reflecting the client being reimbursed by the overpaid amount: [FaaSBank User Guide](06-loan-management.md#tidying-up-negative-loan-balances-managing-overpaid-loans)
 
 ## Posting Charges
 
@@ -563,7 +563,7 @@ At the top of the loan record it will now tell you that interest is suspended; a
 
 ### Switching off suspended interest for a single loan
 
-Note: you will be forced to switch off suspended interest before you can fully payout a loan. See this section of the guide for further details on that process: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+Note: you will be forced to switch off suspended interest before you can fully payout a loan. See this section of the guide for further details on that process: [FaaSBank User Guide](#paying-out-a-loan-that-has-suspended-interest-switched-on)
 
 After a period, you may wish to switch **off** suspended interest on a loan. Doing so means that **interest will once again begin accruing on the loan**.
 
@@ -930,7 +930,7 @@ TBD
 
 ## Transaction Export window
 
-The Transaction Export window in FaaSBank is where a user can create journal entries based on the loan/grant transactions that have been posted in the software. Please see the next section of the User Guide here for information on the journal entry set-up and creation process: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+The Transaction Export window in FaaSBank is where a user can create journal entries based on the loan/grant transactions that have been posted in the software. Please see the next section of the User Guide here for information on the journal entry set-up and creation process: [FaaSBank User Guide](#creating-journal-reports--export-files)
 
 ### Transactions section
 
@@ -969,7 +969,7 @@ If you need to see **paid** amounts, you can always right-click on the batch row
 
 If you plan to use FaaSBank's journal features, before posting any transactions in the software you should **review your loan fund setup to ensure that the correct General Ledger accounts are identified for each fund**. This can be done in **Settings -> Loans -> Funds**.
 
-Please see this section of the User Guide for information on configuring loan funds, GL accounts, and your desired accounting package: [FaaSBank User Guide](https://docs.google.com/document/d/1DtA1c6eWvJQ0mkmqoA6iWnAp13z3Q8UmvwPTQlMC72E/edit)
+Please see this section of the User Guide for information on configuring loan funds, GL accounts, and your desired accounting package: [FaaSBank User Guide](10-settings.md#loan-funds)
 
 ### Using the Transaction Export window to create journal entries
 
