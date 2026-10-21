@@ -837,11 +837,19 @@ The Equifax settings are found at the bottom of the **Organization tab**. They i
 * **Advanced Record Editing** - if ticked, users can manually refresh individual records in Equifax batches, and also update records e.g. select a different client address/phone number to display on the report.  
 * **Consumer Address preference** - choose whether the consumer's Physical or Mailing address appears on the submitted report.  
 * **Commercial Address preference** - choose whether the business's Physical or Mailing address appears on the submitted report.  
-* **Equifax Commercial Phone preference** - choose whether the business's Phone or Cell number appears on the submitted report.
+* **Equifax Commercial Phone preference** - choose whether the business's Phone or Cell number appears on the submitted report.  
+* **Fill in Equifax spreadsheet codes automatically** - if ticked, FaaSBank completes the **Narrative Code** column on the Consumer report, and the **Terms** and **Status** columns on the Commercial report, using each loan's current schedule and status. If left unticked, those columns are left blank for you to complete by hand.  
+* **Loan type on Equifax Consumer Report** - choose the kind of lending your organization does from the list of Equifax codes, e.g. '**16 - Commercial loan / account**' or '**21 - Personal loan**'. FaaSBank combines this with each loan's payment frequency to build the Narrative Code. This drop-down is only available when the check-box above is ticked; leave it on '**(not reported)**' to keep the Narrative Code column blank for active loans.
+
+The last two settings in the list above only appear when your organization's **Default Export Equifax Report Type** is set to **Spreadsheet**. They are hidden for organizations reporting with Metro 2, because the Metro 2 file does not use these columns.
+
+The **Fill in Equifax spreadsheet codes automatically** setting is switched off by default, so your reports will not change until you tick it. Once it is ticked, FaaSBank works out the codes for each loan when a batch is generated, so you no longer need to type them in before you export. On the Consumer report, the Narrative Code is built from your **Loan type on Equifax Consumer Report** selection together with the loan's payment frequency: for example, with '**16 - Commercial loan / account**' selected, a monthly loan reports **B616**, a bi-weekly loan reports **C116** and an annual loan reports **D016**. Loans that have been paid out continue to report **60F8** on the Consumer report and **200** on the Commercial report, and written-off loans report **F836** on the Consumer report and **019** on the Commercial report.
 
 When you have made the necessary changes to the Equifax Settings, remember to click the green **Save** button in the top-right corner of the window to save your changes.
 
 ![](images/image121.png)
+
+**Note**: on the Consumer report, Social Insurance Numbers are always exported as nine digits, with any spaces, dashes or other separators removed (Equifax rejects a file when a SIN includes them). FaaSBank does this automatically for every organization, whether or not **Fill in Equifax spreadsheet codes automatically** is ticked, so there is no need to correct SIN formatting by hand before you submit.
 
 #### Determining which report a client gets displayed on: Commercial vs. Consumer
 
